@@ -1,0 +1,22 @@
+# serveur web
+gateway/*
+
+!gateway/conf/
+!gateway/lua/
+
+gateway/conf/*
+!gateway/conf/nginx.conf
+!gateway/conf/nginx-Current.conf
+!gateway/conf/nginxV1.conf
+
+gateway/lua/*
+
+!gateway/Dockerfile
+!gateway/lua/permissions.lua
+!gateway/lua/check_permissions.lua
+
+gateway/lua/jit/
+
+# Service
+# mysql-students-data
+# mysql-auth-data

@@ -1,0 +1,90 @@
+{
+  "menu": [
+    {
+      "name": "Tableau de bord",
+      "href": "/dashboard",
+      "icon": "ri-dashboard-line"
+    },
+    {
+      "name": "Candidatures",
+      "href": "/Candidatures",
+      "icon": "ri-user-line",
+      "submenu": [
+        { "name": "Liste des candidatures", "href": "/Candidatures" },
+        { "name": "Créer une candidature", "href": "/Candidatures/create" },
+        { "name": "Statistiques", "href": "/Candidatures/statistics" }
+      ]
+    },
+    {
+      "name": "Étudiants",
+      "href": "/students",
+      "icon": "ri-user-line",
+      "submenu": [
+        { "name": "Liste des étudiants", "href": "/students" },
+        { "name": "Créer un étudiant", "href": "/students/create" },
+        { "name": "Statistiques", "href": "/students/statistics" }
+      ]
+    },
+    {
+      "name": "Academic resources",
+      "href": "/academic-resources",
+      "icon": "ri-user-line",
+      "submenu": [
+        { "name": "Liste des étudiants", "href": "/academic-resources" },
+        { "name": "Créer un étudiant", "href": "/academic-resources/create" },
+        { "name": "Statistiques", "href": "/academic-resources/statistics" }
+      ]
+    },
+    {
+      "name": "Matiere",
+      "href": "/matieres",
+      "icon": "ri-book-line",
+      "submenu": [
+        { "name": "Liste des matieres", "href": "/matieres" },
+        { "name": "Créer un matieres", "href": "/matieres/create" },
+        { "name": "Assigner des matieres", "href": "/matieres/assign" }
+      ]
+    },
+    {
+      "name": "Cours",
+      "href": "/courses",
+      "icon": "ri-book-line",
+      "submenu": [
+        { "name": "Liste des cours", "href": "/courses" },
+        { "name": "Créer un cours", "href": "/courses/create" },
+        { "name": "Assigner des cours", "href": "/courses/assign" }
+      ]
+    },
+    {
+      "name": "Notes",
+      "href": "/grades",
+      "icon": "ri-file-list-3-line",
+      "submenu": [
+        { "name": "Gestion des notes", "href": "/grades" },
+        { "name": "Bulletins", "href": "/grades/reports" },
+        { "name": "Moyennes", "href": "/grades/averages" }
+      ]
+    },
+    {
+      "name": "Gestion Académique",
+      "href": "/academic",
+      "icon": "ri-graduation-cap-line",
+      "submenu": [
+        { "name": "Filières", "href": "/academic/filiere" },
+        { "name": "Niveaux", "href": "/academic/niveau" },
+        { "name": "Années académiques", "href": "/academic/years" }
+      ]
+    },
+    {
+      "name": "Administration",
+      "href": "/admin",
+      "icon": "ri-settings-3-line",
+      "submenu": [
+        { "name": "Utilisateurs", "href": "/admin/users" },
+        { "name": "Permissions", "href": "/admin/permissions" },
+        { "name": "Logs système", "href": "/admin/logs" },
+        { "name": "Sauvegarde", "href": "/admin/backup" }
+      ]
+    }
+  ]
+}
