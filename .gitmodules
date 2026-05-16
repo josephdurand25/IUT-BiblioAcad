@@ -1,0 +1,3 @@
+[submodule "services/Auth-bibacad"]
+	path = services/Auth-bibacad
+	url = https://github.com/josephdurand25/Auth-biblioAcad.git
